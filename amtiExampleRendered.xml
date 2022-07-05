@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AMTI_Capability xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+   <MessageData>
+      <Capability>
+         <CapabilityID>
+            <UUID>61616161616161616161616161616161</UUID>
+         </CapabilityID>
+         <CapabilityType>VOLUME</CapabilityType>
+         <SubCapabilityType>ACTIVE_TRACK_UPDATE</SubCapabilityType>
+         <AcceptedInterface>CAPABILITY_COMMAND</AcceptedInterface>
+         <CapabilityOptions>
+            <InterruptOtherActivities>True</InterruptOtherActivities>
+            <CollectionPolicy>True</CollectionPolicy>
+            <ConcurrentOperationSupported>True</ConcurrentOperationSupported>
+         </CapabilityOptions>
+         <SupportedFrequencies>
+            <Min>1.0E-14</Min>
+            <Max>1.0E-14</Max>
+         </SupportedFrequencies>
+      </Capability>
+   </MessageData>
+</AMTI_Capability>

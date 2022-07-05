@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<uci:OpZone  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"  xmlns:uci="https://www.vdl.afrl.af.mil/programs/oam">
+    <uci:SecurityInformation>
+        <uci:Classification>U</uci:Classification>
+        <uci:OwnerProducer>
+            <uci:GovernmentIdentifier>USA</uci:GovernmentIdentifier>
+        </uci:OwnerProducer>
+    </uci:SecurityInformation>
+    <uci:MessageHeader>
+        <uci:SystemID  xs:type="uci:SystemID_Type">
+            <uci:UUID>901AFA0908FA4C33BAE78660405777EC</uci:UUID>
+            <uci:DescriptiveLabel>CMCC</uci:DescriptiveLabel>
+        </uci:SystemID>
+        <uci:Timestamp>2021-08-17T16:53:01Z</uci:Timestamp>
+        <uci:SchemaVersion>002.0.cmcc_v1_0</uci:SchemaVersion>
+        <uci:Mode>LIVE</uci:Mode>
+        <uci:ServiceID  xs:type="uci:ServiceID_Type">
+            <uci:UUID>D221B1239C664B8BA4016C3F5ABF14D1</uci:UUID>
+            <uci:DescriptiveLabel>OmniView-FAIRFOLD, Lake, Daniel</uci:DescriptiveLabel>
+            <uci:ServiceVersion>6.0.12</uci:ServiceVersion>
+        </uci:ServiceID>
+    </uci:MessageHeader>
+    <uci:MessageData  xs:type="uci:OpZoneMDT">
+        <uci:OpDescription>
+            <uci:Remarks>This is a rectangular OpZone</uci:Remarks>
+        </uci:OpDescription>
+        <uci:OpZoneID  xs:type="uci:OpZoneID_Type">
+            <uci:UUID>2BC63AACE3E24AE48B297CBFA261B509</uci:UUID>
+            <uci:DescriptiveLabel>Zone 2BC6</uci:DescriptiveLabel>
+        </uci:OpZoneID>
+        <uci:Category>REFERENCE</uci:Category>
+        <uci:Zone  xs:type="uci:OpZoneType">
+            <uci:Shape>
+                <uci:Rectangle  xs:type="uci:LocatedRectangleType">
+                    <uci:Width>92600</uci:Width>
+                    <uci:Height>1296400</uci:Height>
+                    <uci:Orientation>0</uci:Orientation>
+                    <uci:CenterPointChoice>
+                        <uci:AbsolutePoint  xs:type="uci:Point2D_Type">
+                            <uci:Latitude>0.4307965623096313</uci:Latitude>
+                            <uci:Longitude>-1.641743545334192</uci:Longitude>
+                        </uci:AbsolutePoint>
+                    </uci:CenterPointChoice>
+                </uci:Rectangle>
+            </uci:Shape>
+        </uci:Zone>
+        <uci:SituationalAwareness>false</uci:SituationalAwareness>
+    </uci:MessageData>
+</uci:OpZone>

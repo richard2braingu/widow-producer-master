@@ -1,0 +1,13 @@
+# Local
+.env
+.pytest_cache
+*__pycache__
+
+# Virtual Envinroment
+venv/
+
+# PyCharm
+.idea/
+
+# Tests, Linters, Formatters
+.coverage

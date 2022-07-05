@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AMTI_Capability xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+   <MessageData>
+      <Capability>
+         <CapabilityID>
+            <UUID>{{ capability_id_uuid }}</UUID>
+         </CapabilityID>
+         <CapabilityType>{{ capability_type }}</CapabilityType>
+         <SubCapabilityType>{{ sub_capability_type }}</SubCapabilityType>
+         <AcceptedInterface>{{ accepted_interface }}</AcceptedInterface>
+         <CapabilityOptions>
+            <InterruptOtherActivities>{{ interrupt_other_activities }}</InterruptOtherActivities>
+            <CollectionPolicy>{{ collection_policy }}</CollectionPolicy>
+            <ConcurrentOperationSupported>{{ current_ops_supported }}</ConcurrentOperationSupported>
+         </CapabilityOptions>
+         <SupportedFrequencies>
+            <Min>{{ supp_freq_min }}</Min>
+            <Max>{{ supp_freq_max }}</Max>
+         </SupportedFrequencies>
+      </Capability>
+   </MessageData>
+</AMTI_Capability>

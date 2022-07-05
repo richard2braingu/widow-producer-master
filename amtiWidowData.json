@@ -1,0 +1,11 @@
+{
+    "capability_id": "61616161616161616161616161616161",
+    "capability_product_type": "VOLUME",
+    "sub_capability_123_type": "ACTIVE_TRACK_UPDATE",
+    "interface": "CAPABILITY_COMMAND",
+    "interrupt_activities": true,
+    "collection_111_policy": true,
+    "concurrency-supported": true,
+    "minimum_frequency": "1.0E-14",
+    "maximum_frequency": "1.0E-14"
+}

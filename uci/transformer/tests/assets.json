@@ -1,0 +1,15 @@
+{
+        "aircraft_type": null,
+        "asset_type": "Asset",
+        "qty": 1,
+        "msn": "",
+        "icao": "icao",
+        "take_off_date_time": "12:00:00",
+        "land_date_time": "13:00:00",
+        "mode_two": "two",
+        "mode_three": "three",
+        "aux": "aux",
+        "aircraft_ordnance": "ordnance",
+        "aar_config": "conf",
+        "offload_request": 13
+}

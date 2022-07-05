@@ -1,0 +1,56 @@
+<PositionReport xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+	<SecurityInformation>
+		<Classification>U</Classification>
+		<OwnerProducer>
+			<GovernmentIdentifier>USA</GovernmentIdentifier>
+		</OwnerProducer>
+	</SecurityInformation>
+	<MessageHeader>
+		<SystemID>
+			<UUID>00000000000000000000000000000001</UUID>
+			<DescriptiveLabel>Test System</DescriptiveLabel>
+		</SystemID>
+		<Timestamp>2021-06-11T03:44:09.692Z</Timestamp>
+		<SchemaVersion>002.0</SchemaVersion>
+		<Mode>SIMULATION</Mode>
+		<ServiceID>
+			<UUID>00000000000000000000000000000003</UUID>
+			<DescriptiveLabel>Test Service</DescriptiveLabel>
+		</ServiceID>
+	</MessageHeader>
+	<MessageData>
+		<SystemID>
+			<UUID>60805000000000000000000000000001</UUID>
+			<DescriptiveLabel>Test System</DescriptiveLabel>
+		</SystemID>
+		<Source>ACTUAL</Source>
+		<CurrentOperatingDomain>SEA_SUBSURFACE</CurrentOperatingDomain>
+		<InertialState>
+			<Position>
+				<Latitude>0.7</Latitude>
+				<Longitude>-2.0</Longitude>
+				<Altitude>9144.0</Altitude>
+				<Timestamp>2021-06-11T03:44:09.692Z</Timestamp>
+			</Position>
+			<DomainVelocity>
+				<NorthSpeed>1.1</NorthSpeed>
+				<EastSpeed>1.2</EastSpeed>
+				<DownSpeed>-1.3</DownSpeed>
+				<Timestamp>2001-12-17T09:30:47Z</Timestamp>
+			</DomainVelocity>
+			<GroundVelocity>
+				<NorthSpeed>2.1</NorthSpeed>
+				<EastSpeed>2.2</EastSpeed>
+				<DownSpeed>-2.3</DownSpeed>
+				<Timestamp>2001-12-17T09:30:47Z</Timestamp>
+			</GroundVelocity>
+			<Orientation>
+				<Yaw>-3.1</Yaw>
+				<Pitch>-1.0</Pitch>
+				<Roll>-3.0</Roll>
+				<Timestamp>2001-12-17T09:30:47Z</Timestamp>
+			</Orientation>
+		</InertialState>
+		<MagneticHeading>0.123</MagneticHeading>
+	</MessageData>
+</PositionReport>

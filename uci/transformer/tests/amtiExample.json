@@ -1,0 +1,21 @@
+{
+  "MessageData": {
+    "Capability": {
+      "CapabilityID": {
+        "UUID": "61616161616161616161616161616161"
+      },
+      "CapabilityType": "VOLUME",
+      "SubCapabilityType": "ACTIVE_TRACK_UPDATE",
+      "AcceptedInterface": "CAPABILITY_COMMAND",
+      "CapabilityOptions": {
+        "InterruptOtherActivities": true,
+        "CollectionPolicy": true,
+        "ConcurrentOperationSupported": true
+      },
+      "SupportedFrequencies": {
+        "Min": "1.0E-14",
+        "Max": "1.0E-14"
+      }
+    }
+  }
+}

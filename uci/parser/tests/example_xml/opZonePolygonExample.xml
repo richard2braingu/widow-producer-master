@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<uci:OpZone xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:uci="https://www.vdl.afrl.af.mil/programs/oam">
+    <uci:SecurityInformation>
+        <uci:Classification>U</uci:Classification>
+        <uci:OwnerProducer>
+            <uci:GovernmentIdentifier>USA</uci:GovernmentIdentifier>
+        </uci:OwnerProducer>
+    </uci:SecurityInformation>
+    <uci:MessageHeader>
+        <uci:SystemID xs:type="uci:SystemID_Type">
+            <uci:UUID>901AFA0908FA4C33BAE78660405777EC</uci:UUID>
+            <uci:DescriptiveLabel>CMCC</uci:DescriptiveLabel>
+        </uci:SystemID>
+        <uci:Timestamp>2021-08-17T18:56:15Z</uci:Timestamp>
+        <uci:SchemaVersion>002.0.cmcc_v1_0</uci:SchemaVersion>
+        <uci:Mode>LIVE</uci:Mode>
+        <uci:ServiceID xs:type="uci:ServiceID_Type">
+            <uci:UUID>DC1B3A4A7B5F43138950AE0FE2FA975C</uci:UUID>
+            <uci:DescriptiveLabel>OmniView-FAIRFOLD, Lake, Daniel</uci:DescriptiveLabel>
+            <uci:ServiceVersion>6.0.12</uci:ServiceVersion>
+        </uci:ServiceID>
+    </uci:MessageHeader>
+    <uci:ObjectState>NEW</uci:ObjectState>
+    <uci:MessageData xs:type="uci:OpZoneMDT">
+        <uci:OpDescription>
+            <uci:Remarks>This is a polygon OpZone</uci:Remarks>
+        </uci:OpDescription>
+        <uci:OpZoneID xs:type="uci:OpZoneID_Type">
+            <uci:UUID>B2FBAF4E1D1B442CBB1EA9052D13D187</uci:UUID>
+            <uci:DescriptiveLabel>NoFly</uci:DescriptiveLabel>
+        </uci:OpZoneID>
+        <uci:Category>NO_FLY</uci:Category>
+        <uci:CategoryUniqueData>
+            <uci:NoFly>
+                <uci:PercentRestricted>100</uci:PercentRestricted>
+            </uci:NoFly>
+        </uci:CategoryUniqueData>
+        <uci:Zone xs:type="uci:OpZoneType">
+            <uci:Shape>
+                <uci:Polygon>
+                    <uci:LineProjection>GREAT_CIRCLE</uci:LineProjection>
+                    <uci:PointChoice>
+                        <uci:Point2D xs:type="uci:Point2D_Type">
+                            <uci:Latitude>0.9175967878553259</uci:Latitude>
+                            <uci:Longitude>-2.417256216064549</uci:Longitude>
+                        </uci:Point2D>
+                        <uci:Point2D xs:type="uci:Point2D_Type">
+                            <uci:Latitude>0.8288044442318689</uci:Latitude>
+                            <uci:Longitude>-2.43052742666255</uci:Longitude>
+                        </uci:Point2D>
+                        <uci:Point2D xs:type="uci:Point2D_Type">
+                            <uci:Latitude>0.7500920607675419</uci:Latitude>
+                            <uci:Longitude>-2.37933847149883</uci:Longitude>
+                        </uci:Point2D>
+                        <uci:Point2D xs:type="uci:Point2D_Type">
+                            <uci:Latitude>0.759757684778083</uci:Latitude>
+                            <uci:Longitude>-2.148040229647948</uci:Longitude>
+                        </uci:Point2D>
+                    </uci:PointChoice>
+                </uci:Polygon>
+            </uci:Shape>
+        </uci:Zone>
+        <uci:SituationalAwareness>false</uci:SituationalAwareness>
+    </uci:MessageData>
+</uci:OpZone>

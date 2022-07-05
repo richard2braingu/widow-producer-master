@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubsystemStatus xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+  <SecurityInformation>
+    <Classification>U</Classification>
+    <OwnerProducer>
+      <GovernmentIdentifier>KGZ</GovernmentIdentifier>
+    </OwnerProducer>
+  </SecurityInformation>
+  <MessageHeader>
+    <SystemID>
+      <UUID>61616161616161616161616161619999</UUID>
+    </SystemID>
+    <Timestamp>2001-12-17T09:30:47Z</Timestamp>
+    <SchemaVersion>002.0</SchemaVersion>
+    <Mode>LIVE</Mode>
+  </MessageHeader>
+  <MessageData>
+    <SubsystemID>
+      <UUID>61616161616161616161616161616161</UUID>
+    </SubsystemID>
+    <SubsystemState>DEGRADED</SubsystemState>
+    <SubsystemStateDescription>thisIs A State Description</SubsystemStateDescription>
+    <About>
+      <Model>newModel</Model>
+    </About>
+  </MessageData>
+</SubsystemStatus>
