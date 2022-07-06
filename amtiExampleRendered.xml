@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AMTI_Capability xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+   <SecurityInformation>
+      <Classification>U</Classification>
+      <OwnerProducer>
+         <GovernmentIdentifier>LTU</GovernmentIdentifier>
+      </OwnerProducer>
+   </SecurityInformation>
+   <MessageHeader>
+      <SystemID>
+         <UUID>60805000000000000000000000000001</UUID>
+         <DescriptiveLabel>AMTI_Cap_Test</DescriptiveLabel>
+      </SystemID>
+      <Timestamp>2021-05-24T01:47:58.517Z</Timestamp>
+      <SchemaVersion>002.0</SchemaVersion>
+      <Mode>SIMULATION</Mode>
+      <MissionID>
+         <UUID>22A775D3A9AE4402AB62D8E24E39EC9D</UUID>
+         <DescriptiveLabel>MyMission</DescriptiveLabel>
+         <Version>50</Version>
+      </MissionID>
+   </MessageHeader>
    <MessageData>
       <Capability>
          <CapabilityID>
@@ -9,9 +29,9 @@
          <SubCapabilityType>ACTIVE_TRACK_UPDATE</SubCapabilityType>
          <AcceptedInterface>CAPABILITY_COMMAND</AcceptedInterface>
          <CapabilityOptions>
-            <InterruptOtherActivities>True</InterruptOtherActivities>
-            <CollectionPolicy>True</CollectionPolicy>
-            <ConcurrentOperationSupported>True</ConcurrentOperationSupported>
+            <InterruptOtherActivities>true</InterruptOtherActivities>
+            <CollectionPolicy>true</CollectionPolicy>
+            <ConcurrentOperationSupported>true</ConcurrentOperationSupported>
          </CapabilityOptions>
          <SupportedFrequencies>
             <Min>1.0E-14</Min>

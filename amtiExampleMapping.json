@@ -1,0 +1,21 @@
+{
+    "classification": "sec_info_classification",
+    "government_identifier": "owner_producer_gov_identifier",
+    "system_uuid": "system_id_uuid",
+    "system_label": "system_id_descriptive_label",
+    "timestamp_message": "message_header_timestamp",
+    "schema_version": "message_header_schema_version",
+    "mhm": "message_header_mode",
+    "mission_uuid": "mission_id_uuid",
+    "mission_label": "mission_id_descriptive_label",
+    "mission_version": "mission_id_version",
+    "capability_id": "capability_id_uuid",
+    "capability_product_type": "capability_type",
+    "sub_capability_123_type": "sub_capability_type",
+    "interface": "accepted_interface",
+    "interrupt_activities": "interrupt_other_activities",
+    "collection_111_policy": "collection_policy",
+    "concurrency-supported": "current_ops_supported",
+    "minimum_frequency": "supp_freq_min",
+    "maximum_frequency": "supp_freq_max"
+}

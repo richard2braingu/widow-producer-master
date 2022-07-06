@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <AMTI_Capability xmlns="https://www.vdl.afrl.af.mil/programs/oam">
+   <SecurityInformation>
+      <Classification>{{ sec_info_classification }}</Classification>
+      <OwnerProducer>
+         <GovernmentIdentifier>{{ owner_producer_gov_identifier }}</GovernmentIdentifier>
+      </OwnerProducer>
+   </SecurityInformation>
+   <MessageHeader>
+      <SystemID>
+         <UUID>{{ system_id_uuid }}</UUID>
+         <DescriptiveLabel>{{ system_id_descriptive_label }}</DescriptiveLabel>
+      </SystemID>
+      <Timestamp>{{ message_header_timestamp }}</Timestamp>
+      <SchemaVersion>{{ message_header_schema_version }}</SchemaVersion>
+      <Mode>{{ message_header_mode }}</Mode>
+      <MissionID>
+         <UUID>{{ mission_id_uuid }}</UUID>
+         <DescriptiveLabel>{{ mission_id_descriptive_label }}</DescriptiveLabel>
+         <Version>{{ mission_id_version }}</Version>
+      </MissionID>
+   </MessageHeader>
    <MessageData>
       <Capability>
          <CapabilityID>
